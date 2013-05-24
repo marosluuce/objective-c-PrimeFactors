@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1457517317500AC000AC53D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1457517217500AC000AC53D6 /* UIKit.framework */; };
+		1457517517500AC000AC53D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1457517417500AC000AC53D6 /* Foundation.framework */; };
+		1457517717500AC000AC53D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1457517617500AC000AC53D6 /* CoreGraphics.framework */; };
+		1457517D17500AC000AC53D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1457517B17500AC000AC53D6 /* InfoPlist.strings */; };
+		1457517F17500AC000AC53D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1457517E17500AC000AC53D6 /* main.m */; };
+		1457518317500AC000AC53D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1457518217500AC000AC53D6 /* AppDelegate.m */; };
+		1457518517500AC000AC53D6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1457518417500AC000AC53D6 /* Default.png */; };
+		1457518717500AC000AC53D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1457518617500AC000AC53D6 /* Default@2x.png */; };
+		1457518917500AC000AC53D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1457518817500AC000AC53D6 /* Default-568h@2x.png */; };
+		145751AA17500AF500AC53D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1457517217500AC000AC53D6 /* UIKit.framework */; };
+		145751AB17500AF500AC53D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1457517417500AC000AC53D6 /* Foundation.framework */; };
+		145751AC17500AF500AC53D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1457517617500AC000AC53D6 /* CoreGraphics.framework */; };
+		145751B217500AF500AC53D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 145751B017500AF500AC53D6 /* InfoPlist.strings */; };
+		145751B417500AF500AC53D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 145751B317500AF500AC53D6 /* main.m */; };
+		145751B917500B0500AC53D6 /* libOCDSpec2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1457519D17500AD600AC53D6 /* libOCDSpec2.a */; };
+		145751BE17500B9600AC53D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 145751BC17500B9600AC53D6 /* ViewController.m */; };
+		145751BF17500B9600AC53D6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 145751BD17500B9600AC53D6 /* ViewController.xib */; };
+		145751C117500BCE00AC53D6 /* PrimeFactorsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 145751C017500BCE00AC53D6 /* PrimeFactorsSpec.m */; };
+		145751C417500C0D00AC53D6 /* PrimeFactors.m in Sources */ = {isa = PBXBuildFile; fileRef = 145751C317500C0D00AC53D6 /* PrimeFactors.m */; };
+		145751C517500C1100AC53D6 /* PrimeFactors.m in Sources */ = {isa = PBXBuildFile; fileRef = 145751C317500C0D00AC53D6 /* PrimeFactors.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1457519C17500AD600AC53D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1457519517500AD600AC53D6 /* OCDSpec2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94A6BA5A15BB2DE7003F22B6;
+			remoteInfo = OCDSpec2;
+		};
+		1457519E17500AD600AC53D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1457519517500AD600AC53D6 /* OCDSpec2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 942AAEEC15BBB3760006C241;
+			remoteInfo = OCDSpec2Mac;
+		};
+		145751A017500AD600AC53D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1457519517500AD600AC53D6 /* OCDSpec2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 947F6C2515BC39A200C7CF3B;
+			remoteInfo = OCDSpec2Tests;
+		};
+		145751A217500AD600AC53D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1457519517500AD600AC53D6 /* OCDSpec2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 944FBF4E15C168C100BF85FC;
+			remoteInfo = OCDSpec2AcceptanceTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1457516F17500AC000AC53D6 /* PrimeFactorsKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeFactorsKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1457517217500AC000AC53D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1457517417500AC000AC53D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1457517617500AC000AC53D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1457517A17500AC000AC53D6 /* PrimeFactorsKata-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeFactorsKata-Info.plist"; sourceTree = "<group>"; };
+		1457517C17500AC000AC53D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1457517E17500AC000AC53D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1457518017500AC000AC53D6 /* PrimeFactorsKata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrimeFactorsKata-Prefix.pch"; sourceTree = "<group>"; };
+		1457518117500AC000AC53D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1457518217500AC000AC53D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1457518417500AC000AC53D6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1457518617500AC000AC53D6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1457518817500AC000AC53D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1457519517500AD600AC53D6 /* OCDSpec2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCDSpec2.xcodeproj; path = ../OCDSpec2/OCDSpec2.xcodeproj; sourceTree = "<group>"; };
+		145751A917500AF500AC53D6 /* PrimeFactorsSpec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeFactorsSpec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		145751AF17500AF500AC53D6 /* PrimeFactorsSpec-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeFactorsSpec-Info.plist"; sourceTree = "<group>"; };
+		145751B117500AF500AC53D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		145751B317500AF500AC53D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		145751B517500AF500AC53D6 /* PrimeFactorsSpec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrimeFactorsSpec-Prefix.pch"; sourceTree = "<group>"; };
+		145751BB17500B9600AC53D6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		145751BC17500B9600AC53D6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		145751BD17500B9600AC53D6 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		145751C017500BCE00AC53D6 /* PrimeFactorsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeFactorsSpec.m; sourceTree = "<group>"; };
+		145751C217500C0D00AC53D6 /* PrimeFactors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeFactors.h; sourceTree = "<group>"; };
+		145751C317500C0D00AC53D6 /* PrimeFactors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeFactors.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1457516C17500AC000AC53D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1457517317500AC000AC53D6 /* UIKit.framework in Frameworks */,
+				1457517517500AC000AC53D6 /* Foundation.framework in Frameworks */,
+				1457517717500AC000AC53D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145751A517500AF500AC53D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145751AA17500AF500AC53D6 /* UIKit.framework in Frameworks */,
+				145751AB17500AF500AC53D6 /* Foundation.framework in Frameworks */,
+				145751AC17500AF500AC53D6 /* CoreGraphics.framework in Frameworks */,
+				145751B917500B0500AC53D6 /* libOCDSpec2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1457516617500AC000AC53D6 = {
+			isa = PBXGroup;
+			children = (
+				1457517817500AC000AC53D6 /* PrimeFactorsKata */,
+				145751AD17500AF500AC53D6 /* PrimeFactorsSpec */,
+				1457517117500AC000AC53D6 /* Frameworks */,
+				1457517017500AC000AC53D6 /* Products */,
+				1457519517500AD600AC53D6 /* OCDSpec2.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		1457517017500AC000AC53D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1457516F17500AC000AC53D6 /* PrimeFactorsKata.app */,
+				145751A917500AF500AC53D6 /* PrimeFactorsSpec.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1457517117500AC000AC53D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1457517217500AC000AC53D6 /* UIKit.framework */,
+				1457517417500AC000AC53D6 /* Foundation.framework */,
+				1457517617500AC000AC53D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1457517817500AC000AC53D6 /* PrimeFactorsKata */ = {
+			isa = PBXGroup;
+			children = (
+				1457518117500AC000AC53D6 /* AppDelegate.h */,
+				1457518217500AC000AC53D6 /* AppDelegate.m */,
+				145751C217500C0D00AC53D6 /* PrimeFactors.h */,
+				145751C317500C0D00AC53D6 /* PrimeFactors.m */,
+				145751BB17500B9600AC53D6 /* ViewController.h */,
+				145751BC17500B9600AC53D6 /* ViewController.m */,
+				145751BD17500B9600AC53D6 /* ViewController.xib */,
+				1457517917500AC000AC53D6 /* Supporting Files */,
+			);
+			path = PrimeFactorsKata;
+			sourceTree = "<group>";
+		};
+		1457517917500AC000AC53D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1457517A17500AC000AC53D6 /* PrimeFactorsKata-Info.plist */,
+				1457517B17500AC000AC53D6 /* InfoPlist.strings */,
+				1457517E17500AC000AC53D6 /* main.m */,
+				1457518017500AC000AC53D6 /* PrimeFactorsKata-Prefix.pch */,
+				1457518417500AC000AC53D6 /* Default.png */,
+				1457518617500AC000AC53D6 /* Default@2x.png */,
+				1457518817500AC000AC53D6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1457519617500AD600AC53D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1457519D17500AD600AC53D6 /* libOCDSpec2.a */,
+				1457519F17500AD600AC53D6 /* libOCDSpec2Mac.a */,
+				145751A117500AD600AC53D6 /* OCDSpec2Tests.octest */,
+				145751A317500AD600AC53D6 /* OCDSpec2AcceptanceTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		145751AD17500AF500AC53D6 /* PrimeFactorsSpec */ = {
+			isa = PBXGroup;
+			children = (
+				145751C017500BCE00AC53D6 /* PrimeFactorsSpec.m */,
+				145751AE17500AF500AC53D6 /* Supporting Files */,
+			);
+			path = PrimeFactorsSpec;
+			sourceTree = "<group>";
+		};
+		145751AE17500AF500AC53D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				145751AF17500AF500AC53D6 /* PrimeFactorsSpec-Info.plist */,
+				145751B017500AF500AC53D6 /* InfoPlist.strings */,
+				145751B317500AF500AC53D6 /* main.m */,
+				145751B517500AF500AC53D6 /* PrimeFactorsSpec-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1457516E17500AC000AC53D6 /* PrimeFactorsKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1457519217500AC000AC53D6 /* Build configuration list for PBXNativeTarget "PrimeFactorsKata" */;
+			buildPhases = (
+				1457516B17500AC000AC53D6 /* Sources */,
+				1457516C17500AC000AC53D6 /* Frameworks */,
+				1457516D17500AC000AC53D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeFactorsKata;
+			productName = PrimeFactorsKata;
+			productReference = 1457516F17500AC000AC53D6 /* PrimeFactorsKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		145751A817500AF500AC53D6 /* PrimeFactorsSpec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145751B617500AF500AC53D6 /* Build configuration list for PBXNativeTarget "PrimeFactorsSpec" */;
+			buildPhases = (
+				145751A417500AF500AC53D6 /* Sources */,
+				145751A517500AF500AC53D6 /* Frameworks */,
+				145751A617500AF500AC53D6 /* Resources */,
+				145751A717500AF500AC53D6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeFactorsSpec;
+			productName = PrimeFactorsSpec;
+			productReference = 145751A917500AF500AC53D6 /* PrimeFactorsSpec.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1457516717500AC000AC53D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nathan Walker";
+			};
+			buildConfigurationList = 1457516A17500AC000AC53D6 /* Build configuration list for PBXProject "PrimeFactorsKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1457516617500AC000AC53D6;
+			productRefGroup = 1457517017500AC000AC53D6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1457519617500AD600AC53D6 /* Products */;
+					ProjectRef = 1457519517500AD600AC53D6 /* OCDSpec2.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1457516E17500AC000AC53D6 /* PrimeFactorsKata */,
+				145751A817500AF500AC53D6 /* PrimeFactorsSpec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1457519D17500AD600AC53D6 /* libOCDSpec2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCDSpec2.a;
+			remoteRef = 1457519C17500AD600AC53D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1457519F17500AD600AC53D6 /* libOCDSpec2Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCDSpec2Mac.a;
+			remoteRef = 1457519E17500AD600AC53D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		145751A117500AD600AC53D6 /* OCDSpec2Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCDSpec2Tests.octest;
+			remoteRef = 145751A017500AD600AC53D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		145751A317500AD600AC53D6 /* OCDSpec2AcceptanceTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCDSpec2AcceptanceTest.octest;
+			remoteRef = 145751A217500AD600AC53D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1457516D17500AC000AC53D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1457517D17500AC000AC53D6 /* InfoPlist.strings in Resources */,
+				1457518517500AC000AC53D6 /* Default.png in Resources */,
+				1457518717500AC000AC53D6 /* Default@2x.png in Resources */,
+				1457518917500AC000AC53D6 /* Default-568h@2x.png in Resources */,
+				145751BF17500B9600AC53D6 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145751A617500AF500AC53D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145751B217500AF500AC53D6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		145751A717500AF500AC53D6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n#  RunIPhoneUnitTest.sh\n#  Copyright 2008 Google Inc.\n#\n#  Licensed under the Apache License, Version 2.0 (the \"License\"); you may not\n#  use this file except in compliance with the License.  You may obtain a copy\n#  of the License at\n#\n#  http://www.apache.org/licenses/LICENSE-2.0\n#\n#  Unless required by applicable law or agreed to in writing, software\n#  distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT\n#  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the\n#  License for the specific language governing permissions and limitations under\n#  the License.\n#\n#  Runs all unittests through the iPhone simulator. We don't handle running them\n#  on the device. To run on the device just choose \"run\".\n\nset -o errexit\nset -o nounset\nset -o verbose\n\n#  Controlling environment variables:\n# GTM_DISABLE_ZOMBIES -\n#   Set to a non-zero value to turn on zombie checks. You will probably\n#   want to turn this off if you enable leaks.\nGTM_DISABLE_ZOMBIES=${GTM_DISABLE_ZOMBIES:=1}\n\n# GTM_ENABLE_LEAKS -\n#   Set to a non-zero value to turn on the leaks check. You will probably want\n#   to disable zombies, otherwise you will get a lot of false positives.\n\n# GTM_DISABLE_TERMINATION\n#   Set to a non-zero value so that the app doesn't terminate when it's finished\n#   running tests. This is useful when using it with external tools such\n#   as Instruments.\n\n# GTM_LEAKS_SYMBOLS_TO_IGNORE\n#   List of comma separated symbols that leaks should ignore. Mainly to control\n#   leaks in frameworks you don't have control over.\n#   Search this file for GTM_LEAKS_SYMBOLS_TO_IGNORE to see examples.\n#   Please feel free to add other symbols as you find them but make sure to\n#   reference Radars or other bug systems so we can track them.\n\n# GTM_REMOVE_GCOV_DATA\n#   Before starting the test, remove any *.gcda files for the current run so\n#   you won't get failures when the source file has changed and the data can't\n#   be merged.\n#\nGTM_REMOVE_GCOV_DATA=${GTM_REMOVE_GCOV_DATA:=0}\n\n# GTM_DISABLE_USERDIR_SETUP\n#   Controls whether or not CFFIXED_USER_HOME is erased and set up from scratch\n#   for you each time the script is run. In some cases you may have a wrapper\n#   script calling this one that takes care of that for us so you can set up\n#   a certain user configuration.\nGTM_DISABLE_USERDIR_SETUP=${GTM_DISABLE_USERDIR_SETUP:=0}\n\n# GTM_DISABLE_IPHONE_LAUNCH_DAEMONS\n#   Controls whether or not we launch up the iPhone Launch Daemons before\n#   we start testing. You need Launch Daemons to test anything that interacts\n#   with security.\nGTM_DISABLE_IPHONE_LAUNCH_DAEMONS=1 #${GTM_DISABLE_IPHONE_LAUNCH_DAEMONS:=0}\n\nScriptDir=$(dirname \"$(echo $0 | sed -e \"s,^\\([^/]\\),$(pwd)/\\1,\")\")\nScriptName=$(basename \"$0\")\nThisScript=\"${ScriptDir}/${ScriptName}\"\n\nGTMXcodeNote() {\n    echo ${ThisScript}:${1}: note: GTM ${2}\n}\n\nif [ \"$PLATFORM_NAME\" == \"iphonesimulator\" ]; then\n  # We kill the iPhone simulator because otherwise we run into issues where\n  # the unittests fail becuase the simulator is currently running, and\n  # at this time the iPhone SDK won't allow two simulators running at the same\n  # time.\n  set +e\n  /usr/bin/killall \"iPhone Simulator\"\n  set -e\n\n  if [ $GTM_REMOVE_GCOV_DATA -ne 0 ]; then\n    if [ \"${OBJECT_FILE_DIR}-${CURRENT_VARIANT}\" != \"-\" ]; then\n      if [ -d \"${OBJECT_FILE_DIR}-${CURRENT_VARIANT}\" ]; then\n        GTMXcodeNote ${LINENO} \"Removing any .gcda files\"\n        (cd \"${OBJECT_FILE_DIR}-${CURRENT_VARIANT}\" && \\\n            find . -type f -name \"*.gcda\" -print0 | xargs -0 rm -f )\n      fi\n    fi\n  fi\n\n  export DYLD_ROOT_PATH=\"$SDKROOT\"\n  export DYLD_FRAMEWORK_PATH=\"$CONFIGURATION_BUILD_DIR\"\n  export IPHONE_SIMULATOR_ROOT=\"$SDKROOT\"\n  export CFFIXED_USER_HOME=\"$TEMP_FILES_DIR/iPhone Simulator User Dir\"\n\n  # See http://developer.apple.com/technotes/tn2004/tn2124.html for an\n  # explanation of these environment variables.\n\n  #export MallocScribble=YES\n  export MallocPreScribble=YES\n  #export MallocGuardEdges=YES\n  #export MallocStackLogging=YES\n  export NSAutoreleaseFreedObjectCheckEnabled=YES\n\n  # Turn on the mostly undocumented OBJC_DEBUG stuff.\n  export OBJC_DEBUG_FRAGILE_SUPERCLASSES=YES\n  export OBJC_DEBUG_UNLOAD=YES\n  # Turned off due to the amount of false positives from NS classes.\n  # export OBJC_DEBUG_FINALIZERS=YES\n  export OBJC_DEBUG_NIL_SYNC=YES\n  export OBJC_PRINT_REPLACED_METHODS=NO\n\n  if [ $GTM_DISABLE_ZOMBIES -eq 0 ]; then\n    GTMXcodeNote ${LINENO} \"Enabling zombies\"\n    export CFZombieLevel=3\n    export NSZombieEnabled=YES\n  fi\n\n  if [ $GTM_DISABLE_USERDIR_SETUP -eq 0 ]; then\n    # Cleanup user home directory\n    if [ -d \"$CFFIXED_USER_HOME\" ]; then\n      rm -rf \"$CFFIXED_USER_HOME\"\n    fi\n    mkdir \"$CFFIXED_USER_HOME\"\n    mkdir \"$CFFIXED_USER_HOME/Documents\"\n    mkdir -p \"$CFFIXED_USER_HOME/Library/Caches\"\n  fi\n\n  # 6251475 iPhone simulator leaks @ CFHTTPCookieStore shutdown if\n  #         CFFIXED_USER_HOME empty\n  GTM_LEAKS_SYMBOLS_TO_IGNORE=\"CFHTTPCookieStore\"\n\n  if [ $GTM_DISABLE_IPHONE_LAUNCH_DAEMONS -eq 0 ]; then\n    # If we want to test anything that interacts with the keychain, we need\n    # securityd up and running. See RunIPhoneLaunchDaemons.sh for details.\n    launchctl submit -l RunIPhoneLaunchDaemons -- \"${ScriptDir}/RunIPhoneLaunchDaemons.sh\" $IPHONE_SIMULATOR_ROOT $CFFIXED_USER_HOME\n    # No matter how we exit, we want to shut down our launchctl job.\n    trap \"launchctl remove RunIPhoneLaunchDaemons\" INT TERM EXIT\n  fi\n\n  # Start our app.\n  \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\" -RegisterForSystemEvents\n\nelse\n  GTMXcodeNote ${LINENO} \"Skipping running of unittests for device build.\"\nfi\nexit 0";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1457516B17500AC000AC53D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1457517F17500AC000AC53D6 /* main.m in Sources */,
+				1457518317500AC000AC53D6 /* AppDelegate.m in Sources */,
+				145751BE17500B9600AC53D6 /* ViewController.m in Sources */,
+				145751C417500C0D00AC53D6 /* PrimeFactors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145751A417500AF500AC53D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145751B417500AF500AC53D6 /* main.m in Sources */,
+				145751C117500BCE00AC53D6 /* PrimeFactorsSpec.m in Sources */,
+				145751C517500C1100AC53D6 /* PrimeFactors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1457517B17500AC000AC53D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1457517C17500AC000AC53D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		145751B017500AF500AC53D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				145751B117500AF500AC53D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1457519017500AC000AC53D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1457519117500AC000AC53D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1457519317500AC000AC53D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeFactorsKata/PrimeFactorsKata-Prefix.pch";
+				INFOPLIST_FILE = "PrimeFactorsKata/PrimeFactorsKata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1457519417500AC000AC53D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeFactorsKata/PrimeFactorsKata-Prefix.pch";
+				INFOPLIST_FILE = "PrimeFactorsKata/PrimeFactorsKata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		145751B717500AF500AC53D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeFactorsSpec/PrimeFactorsSpec-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../OCDSpec2";
+				INFOPLIST_FILE = "";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		145751B817500AF500AC53D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeFactorsSpec/PrimeFactorsSpec-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../OCDSpec2";
+				INFOPLIST_FILE = "";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1457516A17500AC000AC53D6 /* Build configuration list for PBXProject "PrimeFactorsKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1457519017500AC000AC53D6 /* Debug */,
+				1457519117500AC000AC53D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1457519217500AC000AC53D6 /* Build configuration list for PBXNativeTarget "PrimeFactorsKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1457519317500AC000AC53D6 /* Debug */,
+				1457519417500AC000AC53D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145751B617500AF500AC53D6 /* Build configuration list for PBXNativeTarget "PrimeFactorsSpec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145751B717500AF500AC53D6 /* Debug */,
+				145751B817500AF500AC53D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1457516717500AC000AC53D6 /* Project object */;
+}
